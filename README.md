@@ -1,6 +1,3 @@
---8<-- "snippets/getting-started.js"
---8<-- "snippets/grail-requirements.md"
-
 ## 1. Dynatrace Tenant Setup
 You will need a Dynatrace SaaS tenant with a DPS pricing model and the 'Code Monitoring' rate card should be associated with it. In addition the application needs to be monitored with Dynatrace FullStack mode. The application runtime: Java, NodeJS.
 
@@ -119,10 +116,3 @@ We will get this two very easy from the Kubernetes App.
 
 
 
-!!! tip "Let's launch the Codespace"
-    Now we are ready to launch the Codespace! You'll need your tenant and the two tokens previuosly gathered from above. When you enter the tenant please enter it without the 'apps' part, for production tenants eg. abc123 for live -> https://abc123.live.dynatrace.com and for sprint -> https://abc123.sprint.dynatracelabs.com no apps in the URL.
-
-
-<div class="grid cards" markdown>
-- [Let's launch Codespaces:octicons-arrow-right-24:](codespaces.md)
-</div>
